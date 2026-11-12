@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8f1">
+  <meta name="description" content="A small static site for testing GitHub Pages as an Alibaba Cloud CDN origin.">
+  <title>Alibaba Cloud CDN | Student Test Site</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="CDN test site home">
+      <img class="logo" src="images/logo.png" alt="CDN">
+      <span>Cloud delivery lab</span>
+    </a>
+    <span class="status"><span class="status-dot" aria-hidden="true"></span> Static site test</span>
+  </header>
+
+  <main class="container">
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">GITHUB PAGES + ALIBABA CLOUD CDN</p>
+      <h1 id="page-title">A simple origin.<br><span>A faster edge.</span></h1>
+      <p class="intro">This static page is the GitHub Pages origin for a small content-delivery test. The accelerated hostname and cache behavior will be checked separately.</p>
+      <div class="hero-tags"><span>Static hosting</span><span>HTTPS origin</span><span>Cache test</span></div>
+    </section>
+
+    <section class="panel verification" aria-labelledby="verification-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">IDENTITY CHECK</p><h2 id="verification-title">Student verification</h2></div>
+        <span class="version-badge">VERSION 1</span>
+      </div>
+      <dl class="details">
+        <div><dt>Name</dt><dd>Khalid mohammed Alhodaib</dd></div>
+        <div><dt>Student ID</dt><dd>471102534</dd></div>
+        <div><dt>Verification token</dt><dd class="token">471102534-CDN-20261112</dd></div>
+        <div><dt>Last updated</dt><dd>2026-11-12 12:07 AST (UTC+03:00)</dd></div>
+      </dl>
+      <p class="notice">This page is public on GitHub Pages and contains your name, student ID and verification token. Upload it only if you accept that public exposure.</p>
+    </section>
+
+    <section class="panel json-panel" aria-labelledby="json-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">LIVE RESOURCE</p><h2 id="json-title">JSON response</h2></div>
+        <span class="file-chip">api/news.json</span>
+      </div>
+      <p id="news" class="response" role="status" aria-live="polite">Loading the Version 1 message…</p>
+      <p class="muted">This separate file helps test a short cache lifetime for frequently updated data.</p>
+    </section>
+
+    <section class="bottom-row" aria-label="Test resources">
+      <div class="resource-card">
+        <div class="resource-icon" aria-hidden="true">PDF</div>
+        <div><h2>Sample guide</h2><p>A short, non-confidential overview of the CDN test.</p></div>
+        <a class="download-link" href="downloads/guide.pdf">Open guide <span aria-hidden="true">→</span></a>
+      </div>
+      <p class="footer-note">Built for a small, manual cache test. No traffic generators are used.</p>
+    </section>
+  </main>
+
+  <footer class="footer"><span>GitHub Pages origin</span><span>Alibaba Cloud CDN homework</span></footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
